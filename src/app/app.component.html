@@ -1,0 +1,220 @@
+<html><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+<body>
+<div class = "background">
+  <div *ngIf="!isDisplay" class="welcome"><button (click) = "toggleDisplay()" class="show">
+    <h1>Welcome To My CV</h1>
+    <h2>Amila Dervisevic</h2>
+  </button></div>
+
+  <div *ngIf="isDisplay2" class="personal">
+
+  <div class="leftpart">
+    <div class="leftdropdown">
+        <h2 class="menutitle"><i class="bi bi-list"></i></h2>
+        <ul class="menudropdown">
+          <li><button class="show1"><i class="bi bi-person"></i></button></li>
+          <li><button (click) = "toggleDisplay3()" class="show1" ><i class="bi bi-book"></i></button></li>
+          <li><button (click) = "toggleDisplay4()" class="show1" ><i class="bi bi-trophy"></i></button></li>
+          <li><button (click) = "toggleDisplay5()" class="show1" ><i class="bi bi-briefcase"></i></button></li>
+          <li><button (click) = "toggleDisplay6()" class="show1" ><i class="bi bi-telephone"></i></button></li>
+        </ul>
+  </div>
+
+  <div class="image">
+<img src="https://images.pexels.com/photos/6011998/pexels-photo-6011998.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+</div>
+  </div>
+
+  <div class="rightpart">
+    <h1>About Me</h1>
+    <div class="topright">
+    <h4>22 Years Old  /  Student at SSST  /  Computer Science</h4>
+      <div class="aboutme">
+      <p>Hardworking and enthusiastic university student working toward a Bachelor's Degree in Computer Science with
+      a minor in Economy at the Sarajevo School of Science and Technology. Seeking to use and extend my knowledge
+      of Programming and Computer Science through different internship programs. Dedicated, determined, hardworking,
+      and committed to becoming a dependable and valuable team member. I am more familiar with frontend development but
+      I will not shy away from exposing myself to other fields of programming.</p>
+      </div>
+    <hr>
+  </div>
+
+    <h3>My Skills</h3>
+     <div class="bottomright">
+        <div class="leftsection">
+          <i class="bi bi-easel"></i>
+          <h2>Motivated</h2>
+
+          <i class="bi bi-shield-check"></i>
+          <h2>Reliable</h2>
+
+          <i class="bi bi-lightbulb"></i>
+          <h2>Fast Learner</h2>
+
+          <i class="bi bi-eyedropper"></i>
+          <h2>Adaptable</h2>
+        </div>
+
+
+        <div class="rightsection">
+          <i class="bi bi-people"></i>
+          <h2>Team Worker</h2>
+
+          <i class="bi bi-chat-right-dots"></i>
+          <h2>Communicative</h2>
+
+          <i class="bi bi-check-circle"></i>
+          <h2>Honest</h2>
+
+
+          <i class="bi bi-megaphone"></i>
+          <h2>Leader</h2>
+        </div>
+    </div>
+  </div>
+
+
+</div>
+
+
+
+
+<div *ngIf="isDisplay3" class="education">
+
+    <div class="leftpart">
+      <div class="leftdropdown">
+        <h2 class="menutitle"><i class="bi bi-list"></i></h2>
+        <ul class="menudropdown">
+          <li><button (click) = "toggleDisplay2()" class="show1"><i class="bi bi-person"></i></button></li>
+          <li><button class="show1" ><i class="bi bi-book"></i></button></li>
+          <li><button (click) = "toggleDisplay4()" class="show1" ><i class="bi bi-trophy"></i></button></li>
+          <li><button (click) = "toggleDisplay5()" class="show1" ><i class="bi bi-briefcase"></i></button></li>
+          <li><button (click) = "toggleDisplay6()" class="show1" ><i class="bi bi-telephone"></i></button></li>
+        </ul>
+      </div>
+
+      <div class="image">
+        <img src="https://images.pexels.com/photos/433333/pexels-photo-433333.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+      </div>
+    </div>
+
+  <div class="contactme">
+    <h1>My Background</h1>
+    <hr>
+    <div class="contactmetopright">
+      <p>Enrolled in SSST from 2019 till Present</p>
+      <p>Finished International High School in Tuzla</p>
+      <p>Posses a B1 Level Drivers License</p>
+      <p>Posses C1 Level English Language Certification</p>
+      <p>Posses B1 Level German Certification</p>
+      <p>Completed Udemy Courses on C++ and Java</p>
+
+    </div>
+
+  </div>
+  </div>
+
+
+
+
+<div *ngIf="isDisplay4" class="achievements">
+
+  <div class="leftpart">
+    <div class="leftdropdown">
+      <h2 class="menutitle"><i class="bi bi-list"></i></h2>
+      <ul class="menudropdown">
+        <li><button (click) = "toggleDisplay2()" class="show1" ><i class="bi bi-person"></i></button></li>
+        <li><button (click) = "toggleDisplay3()" class="show1" ><i class="bi bi-book"></i></button></li>
+        <li><button class="show1"><i class="bi bi-trophy"></i></button></li>
+        <li><button (click) = "toggleDisplay5()" class="show1" ><i class="bi bi-briefcase"></i></button></li>
+        <li><button (click) = "toggleDisplay6()" class="show1" ><i class="bi bi-telephone"></i></button></li>
+      </ul>
+    </div>
+
+    <div class="image">
+      <img src="https://images.pexels.com/photos/2923157/pexels-photo-2923157.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+    </div>
+  </div>
+
+
+    <div class="contactme">
+      <h1>Valuable Links</h1>
+      <hr>
+      <div class="contactmetopright">
+       <p><a href="https://i.imgur.com/Gu1IqCC.png"  target=”_blank”><i class="bi bi-check-circle"></i> Programming with C++ Certificate</a></p>
+        <p><a href="https://i.imgur.com/r27RGxj.png"  target=”_blank”><i class="bi bi-check-circle"></i> Programming with Java Certificate</a></p>
+        <p><a href="https://drive.google.com/drive/u/0/folders/17fbUfbaP8NQhdqel-z7tlHPzopOrrUzI"  target=”_blank”><i class="bi bi-bank"></i> Contributions in School</a></p>
+        <p><a href="https://github.com/amiladerr"  target=”_blank”><i class="bi bi-github"></i> GitHub</a></p>
+
+      </div>
+  </div>
+</div>
+
+
+
+
+<div *ngIf="isDisplay5" class="work">
+
+  <div class="leftpart">
+    <div class="leftdropdown">
+      <h2 class="menutitle"><i class="bi bi-list"></i></h2>
+      <ul class="menudropdown">
+        <li><button (click) = "toggleDisplay2()" class="show1" ><i class="bi bi-person"></i></button></li>
+        <li><button (click) = "toggleDisplay3()" class="show1" ><i class="bi bi-book"></i></button></li>
+        <li><button (click) = "toggleDisplay4()" class="show1" ><i class="bi bi-trophy"></i></button></li>
+        <li><button  class="show1" ><i class="bi bi-briefcase"></i></button></li>
+        <li><button (click) = "toggleDisplay6()" class="show1" ><i class="bi bi-telephone"></i></button></li>
+      </ul>
+    </div>
+
+    <div class="image">
+      <img src="https://images.pexels.com/photos/2682452/pexels-photo-2682452.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+    </div>
+  </div>
+
+  <div class="contactme">
+    <h1>Work Through My Life</h1>
+    <hr>
+    <div class="contactmetopright">
+      <p>Sadly due to bosnian laws preventing students and minors from having full time jobs,
+        all of my experience has been derived from voluntary work as a sales person, cleaning lady, caregiver at animal shelters, help at various sporting events and so on.</p>
+    </div>
+      </div>
+    </div>
+
+
+<div *ngIf="isDisplay6" class="contact">
+
+  <div class="leftpart">
+    <div class="leftdropdown">
+      <h2 class="menutitle"><i class="bi bi-list"></i></h2>
+      <ul class="menudropdown">
+        <li><button (click) = "toggleDisplay2()" class="show1" ><i class="bi bi-person"></i></button></li>
+        <li><button (click) = "toggleDisplay3()" class="show1" ><i class="bi bi-book"></i></button></li>
+        <li><button (click) = "toggleDisplay4()" class="show1" ><i class="bi bi-trophy"></i></button></li>
+        <li><button (click) = "toggleDisplay5()" class="show1" ><i class="bi bi-briefcase"></i></button></li>
+        <li><button class="show1" ><i class="bi bi-telephone"></i></button></li>
+      </ul>
+    </div>
+    <div class="image">
+      <img src="https://images.pexels.com/photos/3639873/pexels-photo-3639873.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+    </div>
+  </div>
+    <div class="contactme">
+      <h1>Contact Me</h1>
+      <hr>
+      <div class="contactmetopright">
+        <p><i class="bi bi-envelope"></i> amila.dervisevic@stu.ssst.edu.ba</p>
+       <p><i class="bi bi-geo-alt"></i> Sarajevo, Stupska 19 B2-A1 </p>
+        <p><i class="bi bi-geo-alt"></i> Tuzla, Izeta Sarajlica 60 </p>
+        <p><i class="bi bi-envelope"></i> amila.derr@gmail.com</p>
+        <p><i class="bi bi-whatsapp"></i> + 387 60 316 0714</p>
+        <p><i class="bi bi-instagram"></i> @amila.derr</p>
+      </div>
+
+    </div>
+
+    </div>
+</div>
+</body>
+</html>
